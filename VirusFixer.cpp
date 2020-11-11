@@ -83,15 +83,24 @@ inline bool exists(const string &name) {
 }
 
 int main() {
+    cout << "------------ Virus Fixer v3.0 ------------" << endl;
+    cout << "by Zzzyt from Hell Hole Studios" << endl;
+    cout << "open source at:" << endl;
+    cout << "https://github.com/Zzzzzzyt/virus-fixer" << endl;
+    cout << endl;
+    cout << "         \"May virus be no more!\"" << endl;
+    cout << "------------------------------------------" << endl;
+    cout << endl;
+    
     char drive_letter = std::filesystem::current_path().string()[0];
-    if(drive_letter=='C'||drive_letter=='D'){
-        cout<<"注意: 本程序设计为在U盘根目录下运行!"<<endl;
-        cout<<"确定要继续? [Y/n] ";
-        char ans=getchar();
-        if(!(ans=='\n'||ans=='y'||ans=='Y')){
+    if (drive_letter == 'C' || drive_letter == 'D') {
+        cout << "注意: 本程序设计为在U盘根目录下运行!" << endl;
+        cout << "确定要继续? [y/N] ";
+        char ans = getchar();
+        if (!(ans == 'y' || ans == 'Y')) {
             return 0;
         }
-        cout<<endl;
+        cout << endl;
     }
 
     chdir("/");

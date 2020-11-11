@@ -3,3 +3,6 @@
 
 # Usage
  Put it in the root directory of your disk and just run!
+
+# Credit
+ Hash library used: https://github.com/stbrumme/hash-library
