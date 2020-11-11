@@ -83,12 +83,12 @@ inline bool exists(const string &name) {
 }
 
 int main() {
-    cout << "------------ Virus Fixer v3.0 ------------" << endl;
+    cout << "------------ Virus Fixer v3.1 ------------" << endl;
     cout << "by Zzzyt from Hell Hole Studios" << endl;
     cout << "open source at:" << endl;
     cout << "https://github.com/Zzzzzzyt/virus-fixer" << endl;
     cout << endl;
-    cout << "         \"May virus be no more!\"" << endl;
+    cout << "       \"May the virus be no more!\"" << endl;
     cout << "------------------------------------------" << endl;
     cout << endl;
     
@@ -112,6 +112,7 @@ int main() {
 
     cout << "³¢ÊÔ»Ö¸´Òş²ØÎÄ¼ş/ÎÄ¼ş¼Ğ:" << endl;
     system("attrib /D -S -H *");
+    system("attrib /D +S +H \"System Volume Information\"");
     cout << endl;
 
     cout << "³¢ÊÔÉ¾³ı²¡¶¾¿ÉÖ´ĞĞÎÄ¼ş:" << endl;

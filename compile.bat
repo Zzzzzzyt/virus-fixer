@@ -1,1 +1,1 @@
-g++ -Wall -Wextra -std=c++17 -s -Os -m32 VirusFixer.cpp -o "VirusFixer v3.0.exe"
+g++ -Wall -Wextra -std=c++17 -s -Os -m32 VirusFixer.cpp -o "VirusFixer.exe"
