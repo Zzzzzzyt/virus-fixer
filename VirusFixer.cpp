@@ -12,6 +12,7 @@
 #include "sha1.cpp"
 
 using namespace std;
+using namespace std::filesystem;
 
 // /c start stQQ.vbe&start
 // clang-format off
@@ -92,7 +93,7 @@ int main() {
     cout << "------------------------------------------" << endl;
     cout << endl;
     
-    char drive_letter = std::filesystem::current_path().string()[0];
+    char drive_letter = current_path().string()[0];
     if (drive_letter == 'C' || drive_letter == 'D') {
         cout << "注意: 本程序设计为在U盘根目录下运行!" << endl;
         cout << "确定要继续? [y/N] ";
